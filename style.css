@@ -35,7 +35,10 @@ body {
     font-size: 20px;
 }
 
-#Top-h1 {}
+#Top-h1 {
+    color: orange tomato;
+    background-image: linear-gradient(orange tomato);
+}
 
 .half-width-2 {
     width: 50%;
@@ -64,11 +67,73 @@ body {
     padding: 10px 40px;
 }
 
-.Recipies-1-Section {
-    width: 40%;
+.Recipies-area {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
+    display: contents;
+}
+
+.Recipies-area img {
+    width: 60%;
+    border-radius: 13%;
+    display: flex;
+}
+
+.span {}
+
+#Top-h1 {
+    color: orange;
+    background-image: linear-gradient(orange tomato);
+}
+
+.middle-h1-2 {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.middle-h1-3 {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.middle-h1-3 img {
+    width: 70%;
+    border-radius: 13%;
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+}
+
+
+.footer-back-color {
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#footer-color {
+    color: orange;
+}
+
+.desh-board {
+    display: flex;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
     padding: 40px 40px 40px 40px;
     box-shadow: 10px 10px 40px gray;
 }
